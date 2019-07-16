@@ -1,41 +1,41 @@
 function helper (operator, num1, num2) {
 	var result;
 
-	switch(operator){
-		case "addition":
+	switch (operator){
+		case 'addition':
 		result = add(num1, num2);
 		break;
 
-		case "subtraction":
+		case 'subtraction':
 		result = subtract(num1, num2);
 		break;
 
-		case "multiplication":
+		case 'multiplication':
 		result = multiply(num1, num2);
 		break;
 
-		case "division":
+		case 'division':
 		result = divide(num1, num2);
 		break;
 
 		default:
-		result = "Sorry, please enter a valid operator!"
+		result = 'Sorry, please enter a valid operator!';
 	}
 
 	function add(a, b){
-		return a + b
+		return a + b;
 	}
 
 	function subtract(a, b){
-		return a - b
+		return a - b;
 	}
 
 	function multiply(a, b){
-		return a * b
+		return a * b * 1;
 	}
 
 	function divide(a, b){
-		return a / b
+		return a / b;
     }
 
     return result;
