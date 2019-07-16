@@ -5,5 +5,5 @@ test('the calculator addition function works as expected', () => {
 });
 
 test('the calculator subtraction function works as expected', () => {
-    expect(calculator('subtraction', 1, 2)).toBe(1);
+    expect(calculator('subtraction', 1, 2)).toBe(-1);
 });
